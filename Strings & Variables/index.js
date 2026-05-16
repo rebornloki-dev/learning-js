@@ -55,3 +55,11 @@ let isStudent = true; // Boolean: user is a student
 console.log(`Bro is online :${online}`); // Outputs: "Bro is online :true"
 console.log(`Item is for sale :${forSale}`); // Outputs: "Item is for sale :false"
 console.log(`Bro is a student :${isStudent}`); // Outputs: "Bro is a student :true"
+
+let fullName = "Jerry Reborn Loki"; 
+let age = 15;
+let student = true;
+
+document.getElementById("p1").textContent = `Your name is ${fullName}`;
+document.getElementById("p2").textContent = `You are ${age} years old`;
+document.getElementById("p3").textContent = `You are a student: ${student}`;
