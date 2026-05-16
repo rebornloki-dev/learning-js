@@ -1,0 +1,29 @@
+/*
+  INTRODUCTIONS MODULE - style.css
+  
+  This CSS file is where you would add styling rules for the HTML elements.
+  Currently empty, but you can add:
+  - Font styles (font-family, font-size, font-weight)
+  - Colors (color, background-color)
+  - Spacing (margin, padding)
+  - Layout properties (display, width, height)
+  
+  Example:
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 32px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+*/

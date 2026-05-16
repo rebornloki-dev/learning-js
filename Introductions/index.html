@@ -1,14 +1,32 @@
-<!DOCTYPE html>
+<!-- 
+  INTRODUCTIONS MODULE - Basic JavaScript Concepts
+  
+  This file demonstrates:
+  - Basic HTML structure
+  - Element selection using ID attributes (for DOM manipulation)
+  - Linking CSS stylesheets
+  - Linking JavaScript files
+  
+  The <h1> and <p> elements with IDs will be populated by JavaScript in index.js
+-->
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Character encoding for proper text display -->
+    <meta charset="UTF-8" />
+    <!-- Viewport settings for responsive design on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Heading element with unique ID for DOM targeting -->
     <h1 id="myH1"></h1>
+    <!-- Paragraph element with unique ID for DOM targeting -->
     <p id="myP"></p>
+    <!-- Link to JavaScript file - executes after HTML loads -->
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

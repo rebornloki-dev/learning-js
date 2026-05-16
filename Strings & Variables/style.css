@@ -1,0 +1,28 @@
+/*
+  STRINGS & VARIABLES MODULE - style.css
+  
+  This CSS file is where you would add styling rules for the HTML elements.
+  Currently empty, but you can add:
+  - Font styles (font-family, font-size, font-weight)
+  - Colors (color, background-color)
+  - Spacing (margin, padding)
+  - Layout properties (display, width, height)
+  - Animations and transitions
+  
+  Example:
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  Note: Style rules won't show up much in this module since the page only
+  displays alerts and console messages, but this file is here for future expansion!
+*/
