@@ -119,7 +119,7 @@ Created as a JavaScript learning journey.
 
 ## License
 
-Free to use for learning purposes.
+This project is under the MIT license
 
 ---
 
