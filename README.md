@@ -27,14 +27,17 @@ learning-js/
 ## Modules
 
 ### 📚 Introductions
+
 **Location:** `Introductions/`
 
 Learn the basics of JavaScript including:
+
 - **Console Logging** - Output text to the browser console
 - **Window Alerts** - Display popup messages to users
 - **DOM Manipulation** - Select and modify HTML elements dynamically
 
 **Example Code:**
+
 ```javascript
 console.log("Hello, World!");
 window.alert("How are you");
@@ -42,15 +45,18 @@ document.getElementById("myH1").textContent = "Hello, World";
 ```
 
 ### 📝 Strings & Variables
+
 **Location:** `Strings & Variables/`
 
 Explore variables and string handling:
+
 - **Variable Declaration** - Using `let` to declare variables
 - **String Templates** - Using template literals with `${}`
 - **Data Types** - Strings, numbers, and booleans
 - **Type Checking** - Using `typeof` operator
 
 **Example Code:**
+
 ```javascript
 let name = "Jerry";
 let age = 25;
@@ -63,6 +69,7 @@ window.alert(`Hello, ${firstName}!`);
 ## Getting Started
 
 1. **Navigate to a module folder:**
+
    ```bash
    cd Introductions
    ```
@@ -90,6 +97,7 @@ window.alert(`Hello, ${firstName}!`);
 ## Browser Compatibility
 
 All modules are compatible with modern browsers:
+
 - Chrome/Edge (latest)
 - Firefox (latest)
 - Safari (latest)
@@ -97,6 +105,7 @@ All modules are compatible with modern browsers:
 ## Future Enhancements
 
 Potential modules to be added:
+
 - Arrays and Objects
 - Functions and Scope
 - Control Flow (if/else, loops)
