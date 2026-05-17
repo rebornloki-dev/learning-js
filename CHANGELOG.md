@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-### Added
+### Added(Add comments to Jerry Portfolio module and docs -Commit :e1e35c0)
 
 - **`Practice/Jerry Portfolio` module** — a hands-on exercise combining variable declarations and DOM manipulation to build a simple personal portfolio page
 - **Comments** added to all files in `Practice/Jerry Portfolio/` (`index.html`, `index.js`, `style.css`) following the established documentation style of the project
