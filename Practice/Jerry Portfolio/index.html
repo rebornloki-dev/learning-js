@@ -1,16 +1,36 @@
+<!--
+  PRACTICE MODULE - Jerry Portfolio
+
+  This file demonstrates:
+  - Basic HTML structure for a personal portfolio page
+  - Element selection using ID attributes (for DOM manipulation)
+  - Linking CSS stylesheets
+  - Linking JavaScript files
+
+  The <p> elements with IDs will be populated dynamically by JavaScript in index.js
+  The <h1> serves as a static heading with the portfolio owner's name
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding for proper text display -->
     <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Static heading displaying the portfolio owner's name -->
     <h1>Jerry</h1>
+    <!-- Paragraph elements with unique IDs for DOM targeting -->
+    <!-- Content will be injected by index.js using template literals -->
     <p id="p1"></p>
     <p id="p2"></p>
     <p id="p3"></p>
+    <!-- Link to JavaScript file - executes after HTML loads -->
     <script src="index.js"></script>
 </body>
 </html>

@@ -15,14 +15,20 @@ learning-js/
 │   ├── index.js           # Console logging, alerts, and DOM manipulation
 │   └── style.css          # Styling
 │
+├── Practice/              # Hands-on practice exercises
+│   └── Jerry Portfolio/   # Personal portfolio page exercise
+│       ├── index.html     # Portfolio HTML structure
+│       ├── index.js       # Variable declarations and DOM manipulation
+│       └── style.css      # Portfolio styling
+│
 ├── Strings & Variables/   # String and variable concepts
 │   ├── index.html         # HTML page with script integration
 │   ├── index.js           # Variables, strings, and boolean examples
 │   └── style.css          # Styling
 │
 ├── README.md              # This file
-├──CHANGELOG.md           # Version history and changes
-└── LICENSE               #MIT license
+├── CHANGELOG.md           # Version history and changes
+└── LICENSE                # MIT license
 ```
 
 ## Modules
@@ -67,6 +73,28 @@ console.log(typeof firstName);
 window.alert(`Hello, ${firstName}!`);
 ```
 
+### 🛠️ Practice
+
+**Location:** `Practice/Jerry Portfolio/`
+
+Apply learned concepts by building a simple personal portfolio page:
+
+- **Variable Declarations** - Using `let` to store personal data (`name`, `age`, `email`, `favfood`)
+- **DOM Manipulation** - Dynamically populating portfolio fields using `getElementById` and `textContent`
+- **Combining Concepts** - Bringing together variables and DOM updates in a real-world context
+
+**Example Code:**
+
+```javascript
+let name = "Jerry";
+let age = 25;
+let email = "jerry@example.com";
+let favfood = "Pizza";
+
+document.getElementById("name").textContent = name;
+document.getElementById("age").textContent = age;
+```
+
 ## Getting Started
 
 1. **Navigate to a module folder:**
@@ -87,7 +115,8 @@ window.alert(`Hello, ${firstName}!`);
 
 1. Start with **Introductions** to understand basic JavaScript concepts
 2. Move to **Strings & Variables** to practice variable declaration and string manipulation
-3. Expand with additional modules as you progress (coming soon)
+3. Try the **Practice** module to apply what you've learned by building a personal portfolio page
+4. Expand with additional modules as you progress (coming soon)
 
 ## Technologies Used
 
@@ -124,5 +153,5 @@ This project is licensed under the MIT license
 
 ---
 
-**Last Updated:** May 16, 2026  
+**Last Updated:** May 17, 2026  
 **Current Version:** 1.0.0

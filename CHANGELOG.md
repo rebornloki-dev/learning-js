@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- **`Practice/Jerry Portfolio` module** — a hands-on exercise combining variable declarations and DOM manipulation to build a simple personal portfolio page
+- **Comments** added to all files in `Practice/Jerry Portfolio/` (`index.html`, `index.js`, `style.css`) following the established documentation style of the project
+
 ## [1.0.0] - 2026-05-16
 
 ### Added (Initial Setup - Commit: 004a9f6)
@@ -44,6 +49,11 @@ learning-js/
 │   ├── index.html
 │   ├── index.js
 │   └── style.css
+├── Practice/
+│   └── Jerry Portfolio/
+│       ├── index.html
+│       ├── index.js
+│       └── style.css
 ├── Strings & Variables/
 │   ├── index.html
 │   ├── index.js
