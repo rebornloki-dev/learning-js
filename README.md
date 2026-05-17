@@ -21,7 +21,8 @@ learning-js/
 │   └── style.css          # Styling
 │
 ├── README.md              # This file
-└── CHANGELOG.md           # Version history and changes
+├──CHANGELOG.md           # Version history and changes
+└── LICENSE               #MIT license
 ```
 
 ## Modules
@@ -119,7 +120,7 @@ Created as a JavaScript learning journey.
 
 ## License
 
-This project is under the MIT license
+This project is licensed under the MIT license
 
 ---
 
