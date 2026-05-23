@@ -1,63 +1,45 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are listed below with commit tags and GitHub links.
 
-## [Unreleased]
+## Commit History
 
-### Added(Add comments to Jerry Portfolio module and docs -Commit :e1e35c0)
-
-- **`Practice/Jerry Portfolio` module** — a hands-on exercise combining variable declarations and DOM manipulation to build a simple personal portfolio page
-- **Comments** added to all files in `Practice/Jerry Portfolio/` (`index.html`, `index.js`, `style.css`) following the established documentation style of the project
-
-## [1.0.0] - 2026-05-16
-
-### Added (Initial Setup - Commit: 004a9f6)
-
-- Initial JavaScript learning project setup
-- `index.html` - Basic HTML template
-- `index.js` - First JavaScript code examples
-- `style.css` - Stylesheet for basic styling
-
-### Changed (Repository Reorganization - Commit: c8e51dd)
-
-- **Reorganized project structure** into thematic learning modules:
-  - Moved files into `Introductions/` folder for basic JavaScript concepts
-  - Created `Strings & Variables/` folder for string and variable examples
-  - Removed root-level `index.js` file (moved to `Introductions/`)
-
-### Introductions Module
-
-- Basic console logging examples
-- Window alerts for user interaction
-- DOM manipulation with `getElementById` and `textContent`
-
-### Strings & Variables Module
-
-- Variable declarations using `let`
-- String template literals with `${}`
-- Data types (string, number, boolean)
-- Type checking with `typeof`
-- Practice with variables like `age`, `name`, `email`, `online` status
+- [19631fe](https://github.com/rebornloki-dev/learning-js/commit/19631fe) started learning Arithmetic OPs
+- [fe1a6e6](https://github.com/rebornloki-dev/learning-js/commit/fe1a6e6) Update CHANGELOG.md
+- [e1e35c0](https://github.com/rebornloki-dev/learning-js/commit/e1e35c0) Add comments to Jerry Portfolio module and docs
+- [5c6b238](https://github.com/rebornloki-dev/learning-js/commit/5c6b238) modiefied README to include License
+- [e9124b7](https://github.com/rebornloki-dev/learning-js/commit/e9124b7) added a practice folder for exercises
+- [723e72f](https://github.com/rebornloki-dev/learning-js/commit/723e72f) added smol things
+- [f29aaed](https://github.com/rebornloki-dev/learning-js/commit/f29aaed) Update README to specify MIT license for the project
+- [7ff46bd](https://github.com/rebornloki-dev/learning-js/commit/7ff46bd) Add MIT License to the project
+- [37c85d5](https://github.com/rebornloki-dev/learning-js/commit/37c85d5) added comme,ts
+- [06ec741](https://github.com/rebornloki-dev/learning-js/commit/06ec741) added change log and readme
+- [b29bc68](https://github.com/rebornloki-dev/learning-js/commit/b29bc68) added changelog and rezdme
+- [c8e51dd](https://github.com/rebornloki-dev/learning-js/commit/c8e51dd) arranged and organsied the repo
+- [004a9f6](https://github.com/rebornloki-dev/learning-js/commit/004a9f6) init
 
 ---
 
-**Repository Structure:**
+## Notes
+
+- Each entry above includes the commit hash and a link to the corresponding GitHub commit page.
+- This changelog reflects the full repository history as of May 23, 2026.
+
+## Repository Structure
 
 ```
 learning-js/
+├── Arithmetic Operators/
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
 ├── Introductions/
 │   ├── index.html
 │   ├── index.js
 │   └── style.css
-├── Practice/
-│   └── Jerry Portfolio/
-│       ├── index.html
-│       ├── index.js
-│       └── style.css
 ├── Strings & Variables/
 │   ├── index.html
 │   ├── index.js
 │   └── style.css
-├── README.md
-└── CHANGELOG.md
+├── LICENSE
 ```
