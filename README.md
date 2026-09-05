@@ -147,11 +147,5 @@ Potential modules to be added:
 
 Created as a JavaScript learning journey.
 
-## License
-
-This project is licensed under the MIT license
-
 ---
 
-**Last Updated:** May 17, 2026  
-**Current Version:** 1.0.0
